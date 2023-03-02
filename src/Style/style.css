@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "league spartan";
+}
+
+/* #navbar style start  */
+
+.nav-link {
+  margin-right: 10px;
+  margin-left: 10px;
+  color: black;
+  text-transform: uppercase;
+  font-family: "league spartan";
+}
+.nav-link:hover {
+  color: #c30505 !important;
+}
+.nav-item {
+  margin: auto !important;
+}
+
+#blacks {
+  color: black;
+}
+#whistes {
+  color: white;
+}
+.phone_number_in_Desktop {
+  color: #fff;
+  margin-right: 20px;
+}
+.phone_number_in_phone_mode {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .navbar-nav {
+    background-color: rgb(30, 28, 28);
+  }
+  .navbar-nav .nav-link {
+    color: white;
+  }
+  .nav-link:hover {
+    color: #f9a826;
+  }
+  .phone_number_in_Desktop {
+    display: none;
+  }
+  .phone_number_in_phone_mode {
+    display: block;
+    color: #fff;
+    margin-right: 20px;
+  }
+  #bg-light {
+    background-color: white !important ;
+  }
+  #bg-dark {
+    background-color: black !important;
+  }
+}
+
+/* #navbar style end  */
+
+/* #slier home page style start  */
+
+.home_page {
+  height: 790px;
+}
+.product_slider_img {
+  height: 400px;
+}
+@media screen and (max-width: 768px) {
+  .home_page {
+    height: 450px;
+  }
+  .product_slider_img {
+    height: 200px;
+  }
+}
